@@ -8,7 +8,7 @@ container_1:
 	docker exec -it python_container_1 /bin/bash
 
 container_2:
-	docker exec -it python_container_1 /bin/bash
+	docker exec -it python_container_2 /bin/bash
 
 run:
 	python3 app.py
